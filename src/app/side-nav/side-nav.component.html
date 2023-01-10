@@ -1,0 +1,24 @@
+<mat-nav-list>
+    <div class="logo py-4">
+      <img src="./assets/logo.svg" alt="Company Logo" />
+      <!-- <span class="img">Dashboard</span> -->
+    </div>
+    <mat-divider></mat-divider>
+    <h2 matSubheader class="mt-2">Menu</h2>
+  
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">
+      <mat-icon>home</mat-icon> Home
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+      <mat-icon>dashboard</mat-icon> Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/profile"> 
+      <mat-icon>account_circle</mat-icon> Profile 
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/manageUsers"> 
+      <mat-icon>supervisor_account</mat-icon> Manage Users 
+    </a>
+    <!-- <a mat-list-item> <mat-icon>login</mat-icon> Login </a>
+    <a mat-list-item> <mat-icon>edit</mat-icon> Registration </a> -->
+    <a class="logout" mat-list-item> <mat-icon>exit_to_app</mat-icon> Logout </a>
+  </mat-nav-list>
